@@ -20,7 +20,6 @@
       src="/assets/packages/flutter_inappwebview_web/assets/web/web_support.js"
       defer
     ></script>
- 
 
     <meta charset="UTF-8" />
     <meta content="IE=Edge" http-equiv="X-UA-Compatible" />
@@ -53,7 +52,7 @@
         -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
       }
-      
+
       .loader {
         border: 16px solid #f3f3f3;
         border-radius: 50%;
@@ -66,7 +65,7 @@
         -webkit-animation: spin 2s linear infinite;
         animation: spin 2s linear infinite;
       }
-      
+
       @-webkit-keyframes spin {
         0% {
           -webkit-transform: rotate(0deg);
@@ -75,7 +74,7 @@
           -webkit-transform: rotate(360deg);
         }
       }
-      
+
       @keyframes spin {
         0% {
           transform: rotate(0deg);
@@ -99,6 +98,22 @@
         "floating-chat.donateButton.background-color": "#00b9fe",
         "floating-chat.donateButton.text-color": "#fff",
       });
+    </script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+
+    <!-- Firebase Configuration -->
+    <script>
+      var firebaseConfig = {
+        apiKey: "AIzaSyC8UawFuG3STzFFUBVBtwywXmYw1fwR84A",
+        appId: "1:1061234073577:web:a9a85b69206b1e1c65f578",
+        messagingSenderId: "1061234073577",
+        projectId: "cookieruntoa",
+        authDomain: "cookieruntoa.firebaseapp.com",
+        storageBucket: "cookieruntoa.appspot.com",
+      };
+
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
     </script>
   </body>
 </html>
